@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% block content %}
+<main class="p-5">
+
+<div class="row">
+	<div class="col">
+	<h1 class="myhead2">Contact</h1>
+		<hr>
+	</div>
+</div>
+<div class="row">
+	<div class="col-sm-6">
+	<form>
+	<input class="form-control" type="text" name="uname" placeholder="Name" /><br>
+	<input class="form-control" type="email" name="email" placeholder="email" /><br>
+	<input class="form-control" type="tel" name="phone_no" placeholder="Phone No" /><br>
+	<textarea class="form-control"  placeholder="MSG"></textarea><br>
+	<button class="btn btn-dark btn-block" type="submit">Submit</button>
+	</form>
+	</div>
+	<div class="col-sm-6">
+	<p>
+	<strong><span class="fa fa-map-marker mx-2"></strong>Jagannath University, Dhaka, Bnagladesh<br><br>
+	<strong><span class="fa fa-phone mx-2"></strong>+880 17150xxxx<br><br>
+	<strong><span class="fa fa-fax mx-2"></strong> +880 1758284109<br><br>
+	<strong><span class="fa fa-globe mx-2"></strong> http://blabla.com<br><br>
+	</p>
+	</div>
+</div>
+<div class="row my-5">
+<div class="col-sm-8 offset-sm-2">
+<div class="embed-responsive embed-responsive-16by9">
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14612.350342902895!2d90.4113645!3d23.7085661!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1278bcef6c7c345!2sJagannath%20University(JnU)!5e0!3m2!1sen!2sbd!4v1594877247606!5m2!1sen!2sbd" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+</div>
+</div>
+</div>
+
+</main>
+{% endblock %}
